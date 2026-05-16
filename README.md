@@ -1,3 +1,8 @@
+[![Unit Test](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/dotnet.yml/badge.svg)](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/dotnet.yml)
+[![Linux Release](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/linux-release.yml/badge.svg)](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/linux-release.yml)
+[![Windows Release](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/windows-release.yml/badge.svg)](https://github.com/HollieShadbolt/DiscordBandit/actions/workflows/windows-release.yml)
+
+
 A .NET console application for running [DiscordStickyMessages](https://github.com/HollieShadbolt/DiscordStickyMessages) and [HttpRequestMessageHandler](https://github.com/HollieShadbolt/HttpRequestMessageHandler).
 
 # Usage
