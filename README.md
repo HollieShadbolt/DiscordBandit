@@ -10,7 +10,7 @@ The application will loop indefinitely until cancelled.
 
 For each channel ID to message pair, the latest message from the bot in that channel is retrieved. If this message from the bot is not the latest message in the channel, this message from the bot will be deleted and a new message will be posted in the channel.
 
-If the defined user connects to or disconnects from defined channel, the channel name is updated to the defined name. This has a cooldown of 5 minutes due to Discord's Rate Limiting.
+If the defined user connects to or disconnects from the defined channel, the channel name is updated to the defined name. This has a cooldown of 5 minutes due to Discord's Rate Limiting.
 
 # Usage
 ```
