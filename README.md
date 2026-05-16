@@ -13,3 +13,7 @@ This file should contain the following JSON properties:
 - `channel_id` (string) - The ID of the channel.
 - `channel_name_if_false` (string) - The channel names to update to when the user is not in the channel.
 - `channel_name_if_true` (string) - The channel names to update to when the user is in the channel.
+
+# Dependencies
+- [DiscordStickyMessages](https://github.com/HollieShadbolt/DiscordStickyMessages)
+- [DiscordChannelNameUpdater](https://github.com/HollieShadbolt/DiscordChannelNameUpdater)
