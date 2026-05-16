@@ -14,11 +14,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="DiscordStickyMessages" Version="0.0.2" />
+        <PackageReference Include="DiscordStickyMessages" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="DiscordChannelNameUpdater" Version="0.0.2" />
+        <PackageReference Include="DiscordChannelNameUpdater" Version="1.0.0" />
     </ItemGroup>
 
 </Project>
