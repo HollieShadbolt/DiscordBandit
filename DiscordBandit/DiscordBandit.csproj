@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>DiscordBandit</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/HollieShadbolt/DiscordBandit</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DiscordStickyMessages" Version="0.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DiscordChannelNameUpdater" Version="0.0.1" />
+    </ItemGroup>
+
+</Project>

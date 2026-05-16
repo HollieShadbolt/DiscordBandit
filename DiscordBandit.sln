@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordBandit", "DiscordBandit\DiscordBandit.csproj", "{8927DE85-96DD-4DB9-BE2F-1847DF56722A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordBanditTests", "DiscordBanditTests\DiscordBanditTests.csproj", "{1BB256DF-959F-4409-8A77-CB25E18B40CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8927DE85-96DD-4DB9-BE2F-1847DF56722A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8927DE85-96DD-4DB9-BE2F-1847DF56722A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8927DE85-96DD-4DB9-BE2F-1847DF56722A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8927DE85-96DD-4DB9-BE2F-1847DF56722A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB256DF-959F-4409-8A77-CB25E18B40CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB256DF-959F-4409-8A77-CB25E18B40CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB256DF-959F-4409-8A77-CB25E18B40CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB256DF-959F-4409-8A77-CB25E18B40CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
