@@ -17,7 +17,7 @@ If the defined user connects to or disconnects from the defined channel, the cha
 DiscordBandit path/to/file.config
 ```
 
-This file should contain the following JSON properties:
+This JSON file should contain the following properties:
 - `parameter` (string) - The Bot token (see [API Reference](https://docs.discord.com/developers/reference)) with `MESSAGE_CONTENT` Priviledged Intent (see [Privileged Intents](https://docs.discord.com/developers/events/gateway#privileged-intents)).
 - `channel_ids_to_messages` (dictionary<string, string>) - The IDs of the channels to monitor with `VIEW_CHANNEL`, `SEND_MESSAGES` and `READ_MESSAGE_HISTORY` permissions, paired with the messages to send.
 - `guild_id` (string) - The ID of the guild.
