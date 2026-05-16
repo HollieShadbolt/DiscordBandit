@@ -26,9 +26,9 @@ public class Config : DiscordChannelNameUpdater.Interfaces.IConfig, DiscordStick
     [JsonPropertyName("channel_id")]
     public required string ChannelId { get; init; }
 
-    [JsonPropertyName("channel_name_if_false")]
-    public required string ChannelNameIfFalse { get; init; }
+    [JsonPropertyName("channel_name_if_connected")]
+    public required string ChannelNameIfConnected { get; init; }
 
-    [JsonPropertyName("channel_name_if_true")]
-    public required string ChannelNameIfTrue { get; init; }
+    [JsonPropertyName("channel_name_if_disconnected")]
+    public required string ChannelNameIfDisconnected { get; init; }
 }
