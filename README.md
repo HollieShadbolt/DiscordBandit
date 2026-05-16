@@ -23,8 +23,8 @@ This file should contain the following JSON properties:
 - `guild_id` (string) - The ID of the guild.
 - `user_id` (string) - The ID of the user to monitor for updating the channel name.
 - `channel_id` (string) - The ID of the channel with `VIEW_CHANNEL`, `CONNECT`, and `MANAGE_CHANNELS` permissions.
-- `channel_name_when_joins` (string) - The channel name to update to when the user joins the channel.
-- `channel_name_when_leaves` (string) - The channel name to update to when the user leaves the channel.
+- `channel_name_if_connected` (string) - The channel names to update to if the user is disconnected from the channel.
+- `channel_name_if_disconnected` (string) - The channel names to update to if the user is connected to the channel.
 
 # Dependencies
 - [DiscordStickyMessages](https://github.com/HollieShadbolt/DiscordStickyMessages)
