@@ -35,5 +35,5 @@ jobs:
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: TwitchAnnouncer-win
+        name: DiscordBandit-win
         path: /home/runner/work/DiscordBandit/DiscordBandit/release/
