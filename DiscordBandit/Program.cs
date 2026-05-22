@@ -26,6 +26,6 @@ public static class Program
 
         var discordBandit = new DiscordBandit(discordStickyMessages, discordChannelNameUpdater);
 
-        await discordBandit.Run(CancellationToken.None);
+        await discordBandit.RunAsync(CancellationToken.None);
     }
 }

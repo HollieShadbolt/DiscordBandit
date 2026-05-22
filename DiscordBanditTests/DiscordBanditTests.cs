@@ -19,7 +19,7 @@ public static class DiscordBanditTests
         var cancellationTokenSource = new CancellationTokenSource();
 
         // Act
-        await discordBandit.Run(cancellationTokenSource.Token);
+        await discordBandit.RunAsync(cancellationTokenSource.Token);
 
         // Assert
         mockDiscordStickyMessages.Verify(
